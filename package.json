@@ -1,6 +1,10 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "start:components": "lerna run start --scope=@lexmin0412/wc",
+    "generate:components": "lerna run generate --scope=@lexmin0412/wc"
+  },
   "dependencies": {},
   "devDependencies": {
     "lerna": "^8.0.0"

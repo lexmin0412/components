@@ -1,0 +1,42 @@
+{
+  "name": "@lexmin0412/wc-react",
+  "version": "0.0.4",
+  "description": "web component 的 react wrapper",
+  "author": "lexmin0412 <zhangle_dev@outlook.com>",
+  "homepage": "https://github.com/lexmin0412/components#readme",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lexmin0412/components.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/components-react.test.js",
+    "build": "npm run tsc",
+    "tsc": "tsc -p . --outDir ./dist"
+  },
+  "bugs": {
+    "url": "https://github.com/lexmin0412/components/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@lexmin0412/wc": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.39",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.3.2"
+  }
+}

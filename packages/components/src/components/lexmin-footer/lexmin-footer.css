@@ -1,0 +1,13 @@
+:host {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 64px;
+  border-top: 1px solid #eff0f5;
+}
+
+a {
+  margin-left: 4px;
+  color: #4681ff;
+  text-decoration: none;
+}
