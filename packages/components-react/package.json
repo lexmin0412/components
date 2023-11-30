@@ -22,7 +22,8 @@
   "scripts": {
     "test": "node ./__tests__/components-react.test.js",
     "build": "npm run tsc",
-    "tsc": "tsc -p . --outDir ./dist"
+    "tsc": "tsc -p . --outDir ./dist",
+		"prepublish": "pnpm build"
   },
   "bugs": {
     "url": "https://github.com/lexmin0412/components/issues"
