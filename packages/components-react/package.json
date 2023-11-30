@@ -1,6 +1,6 @@
 {
   "name": "@lexmin0412/wc-react",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "web component 的 react wrapper",
   "author": "lexmin0412 <zhangle_dev@outlook.com>",
   "homepage": "https://github.com/lexmin0412/components#readme",
@@ -23,7 +23,7 @@
     "test": "node ./__tests__/components-react.test.js",
     "build": "npm run tsc",
     "tsc": "tsc -p . --outDir ./dist",
-		"prepublish": "pnpm build"
+    "prepublish": "pnpm build"
   },
   "bugs": {
     "url": "https://github.com/lexmin0412/components/issues"
