@@ -1,15 +1,15 @@
 {
   "name": "@lexmin0412/wc-themes",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-	"publishConfig": {
-		"access": "public"
-	},
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "lexmin0412 <zhangle_dev@outlook.com>",
   "license": "ISC",
   "gitHead": "93e4e71676c9a669a758793cd96ad425ddbddf0c"
