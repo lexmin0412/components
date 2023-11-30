@@ -15,10 +15,10 @@ importers:
   packages/components:
     dependencies:
       '@lexmin0412/wc-icons':
-        specifier: ^0.0.3
+        specifier: ^0.0.4
         version: link:../icons
       '@lexmin0412/wc-themes':
-        specifier: ^0.0.3
+        specifier: ^0.0.4
         version: link:../themes
 
   packages/icons: {}
