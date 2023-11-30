@@ -6,11 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [],
   "author": "lexmin0412 <zhangle_dev@outlook.com>",
   "license": "ISC",
   "dependencies": {
-    "@lexmin0412/wc-icons": "workspace:^",
-    "@lexmin0412/wc-themes": "workspace:^"
-  }
+    "@lexmin0412/wc-icons": "^0.0.1",
+    "@lexmin0412/wc-themes": "^0.0.1"
+  },
+  "gitHead": "93e4e71676c9a669a758793cd96ad425ddbddf0c"
 }

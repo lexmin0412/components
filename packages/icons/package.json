@@ -6,7 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [],
   "author": "lexmin0412 <zhangle_dev@outlook.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "gitHead": "93e4e71676c9a669a758793cd96ad425ddbddf0c"
 }
