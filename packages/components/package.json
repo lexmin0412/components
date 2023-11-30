@@ -1,0 +1,16 @@
+{
+  "name": "@lexmin0412/wc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "lexmin0412 <zhangle_dev@outlook.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@lexmin0412/wc-icons": "workspace:^",
+    "@lexmin0412/wc-themes": "workspace:^"
+  }
+}
