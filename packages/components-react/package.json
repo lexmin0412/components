@@ -34,6 +34,7 @@
     "@lexmin0412/wc": "workspace:*"
   },
   "devDependencies": {
+    "@types/node": "^18.18.14",
     "@types/react": "^18.2.39",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
