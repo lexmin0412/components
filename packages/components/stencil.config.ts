@@ -23,6 +23,9 @@ export const config: Config = {
       proxiesFile: '../components-react/lib/components/stencil-generated/index.ts',
     }),
   ],
+  extras: {
+    enableImportInjection: true
+  },
   testing: {
     browserHeadless: "new",
   },
