@@ -24,6 +24,7 @@ export const config: Config = {
     }),
   ],
   extras: {
+    // 支持 vite 生产构建(修复vite生产构建后渲染空标签的问题)
     enableImportInjection: true
   },
   testing: {
