@@ -33,7 +33,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@lexmin0412/wc": "^0.0.10",
+    "@lexmin0412/wc": "workspace:*",
     "vue": "^3.3.10"
   }
 }
