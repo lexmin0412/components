@@ -1,5 +1,6 @@
-import { reactOutputTarget } from '@stencil/react-output-target';
 import { Config } from '@stencil/core';
+import { reactOutputTarget } from '@stencil/react-output-target';
+import { vueOutputTarget } from '@stencil/vue-output-target';
 
 export const config: Config = {
   namespace: 'components',
@@ -21,6 +22,10 @@ export const config: Config = {
     reactOutputTarget({
       componentCorePackage: '@lexmin0412/wc',
       proxiesFile: '../components-react/lib/components/stencil-generated/index.ts',
+    }),
+    vueOutputTarget({
+      componentCorePackage: '@lexmin0412/wc',
+      proxiesFile: '../components-vue/lib/components.ts',
     }),
   ],
   extras: {
