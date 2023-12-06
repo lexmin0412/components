@@ -65,7 +65,7 @@ importers:
   packages/components-vue:
     dependencies:
       '@lexmin0412/wc':
-        specifier: '*'
+        specifier: ^0.0.10
         version: link:../components
       vue:
         specifier: ^3.3.10

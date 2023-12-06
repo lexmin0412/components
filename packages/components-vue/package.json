@@ -1,6 +1,6 @@
 {
   "name": "@lexmin0412/wc-vue",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "web components 的 vue wrapper",
   "keywords": [
     "web components"
@@ -33,7 +33,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@lexmin0412/wc": "*",
+    "@lexmin0412/wc": "^0.0.10",
     "vue": "^3.3.10"
   }
 }
