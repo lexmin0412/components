@@ -1,7 +1,7 @@
 {
   "name": "@lexmin0412/wc",
   "version": "0.0.11",
-  "description": "Stencil Component Starter",
+  "description": "基于 Stencil 构建的通用 Web Components 组件库",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
   "es2015": "dist/esm/index.js",
@@ -12,8 +12,9 @@
   "unpkg": "dist/components/components.esm.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ionic-team/stencil-component-starter.git"
+    "url": "https://github.com/lexmin0412/components.git"
   },
+  "homepage": "https://github.com/lexmin0412/components#readme",
   "files": [
     "dist/",
     "loader/"
