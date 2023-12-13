@@ -1,6 +1,6 @@
 {
   "name": "@lexmin0412/wc",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "基于 Stencil 构建的通用 Web Components 组件库",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
