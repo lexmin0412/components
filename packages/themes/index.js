@@ -1,4 +1,5 @@
 module.exports = {
-	color: '#1688ff',
-	background: '#fff'
+	theme: '#1688ff',
+	background: '#fff',
+	base: '#222',
 }
