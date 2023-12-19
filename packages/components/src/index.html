@@ -4,11 +4,20 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
     <title>Stencil Component Starter</title>
-
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+      }
+    </style>
     <script type="module" src="/build/components.esm.js"></script>
     <script nomodule src="/build/components.js"></script>
   </head>
   <body>
+    <lexmin-header title="My Second Brain"></lexmin-header>
     <lexmin-footer></lexmin-footer>
+    <script>
+      document.querySelector('lexmin-header').icons = ['github', 'theme']
+    </script>
   </body>
 </html>

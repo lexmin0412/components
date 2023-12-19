@@ -8,6 +8,12 @@ import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
     interface LexminFooter {
     }
+    interface LexminHeader {
+        /**
+          * 头部标题 一般是站点或页面标题
+         */
+        "title": string;
+    }
 }
 declare global {
     interface HTMLLexminFooterElement extends Components.LexminFooter, HTMLStencilElement {
@@ -16,15 +22,29 @@ declare global {
         prototype: HTMLLexminFooterElement;
         new (): HTMLLexminFooterElement;
     };
+    interface HTMLLexminHeaderElement extends Components.LexminHeader, HTMLStencilElement {
+    }
+    var HTMLLexminHeaderElement: {
+        prototype: HTMLLexminHeaderElement;
+        new (): HTMLLexminHeaderElement;
+    };
     interface HTMLElementTagNameMap {
         "lexmin-footer": HTMLLexminFooterElement;
+        "lexmin-header": HTMLLexminHeaderElement;
     }
 }
 declare namespace LocalJSX {
     interface LexminFooter {
     }
+    interface LexminHeader {
+        /**
+          * 头部标题 一般是站点或页面标题
+         */
+        "title"?: string;
+    }
     interface IntrinsicElements {
         "lexmin-footer": LexminFooter;
+        "lexmin-header": LexminHeader;
     }
 }
 export { LocalJSX as JSX };
@@ -32,6 +52,7 @@ declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
             "lexmin-footer": LocalJSX.LexminFooter & JSXBase.HTMLAttributes<HTMLLexminFooterElement>;
+            "lexmin-header": LocalJSX.LexminHeader & JSXBase.HTMLAttributes<HTMLLexminHeaderElement>;
         }
     }
 }
