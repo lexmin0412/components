@@ -2,7 +2,7 @@
 
 基于 Web Components 的通用组件。
 
-![Alt](https://repobeats.axiom.co/api/embed/e9ec37705b8b3bbd0b6dd4c32f43da91ba9f9b3c.svg "Repobeats analytics image")
+![Repobeats](https://repobeats.axiom.co/api/embed/e9ec37705b8b3bbd0b6dd4c32f43da91ba9f9b3c.svg "Repobeats analytics image")
 
 ## Packages
 
