@@ -1,6 +1,6 @@
 # Components
 
-基于 Web Components 的通用组件。
+基于 Stencil 构建的 Web Components 组件库。
 
 ![Repobeats](https://repobeats.axiom.co/api/embed/e9ec37705b8b3bbd0b6dd4c32f43da91ba9f9b3c.svg "Repobeats analytics image")
 
