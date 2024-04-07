@@ -6,6 +6,8 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
+    interface LexminAvatar {
+    }
     interface LexminFooter {
     }
     interface LexminHeader {
@@ -16,6 +18,12 @@ export namespace Components {
     }
 }
 declare global {
+    interface HTMLLexminAvatarElement extends Components.LexminAvatar, HTMLStencilElement {
+    }
+    var HTMLLexminAvatarElement: {
+        prototype: HTMLLexminAvatarElement;
+        new (): HTMLLexminAvatarElement;
+    };
     interface HTMLLexminFooterElement extends Components.LexminFooter, HTMLStencilElement {
     }
     var HTMLLexminFooterElement: {
@@ -29,11 +37,14 @@ declare global {
         new (): HTMLLexminHeaderElement;
     };
     interface HTMLElementTagNameMap {
+        "lexmin-avatar": HTMLLexminAvatarElement;
         "lexmin-footer": HTMLLexminFooterElement;
         "lexmin-header": HTMLLexminHeaderElement;
     }
 }
 declare namespace LocalJSX {
+    interface LexminAvatar {
+    }
     interface LexminFooter {
     }
     interface LexminHeader {
@@ -43,6 +54,7 @@ declare namespace LocalJSX {
         "title"?: string;
     }
     interface IntrinsicElements {
+        "lexmin-avatar": LexminAvatar;
         "lexmin-footer": LexminFooter;
         "lexmin-header": LexminHeader;
     }
@@ -51,6 +63,7 @@ export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
+            "lexmin-avatar": LocalJSX.LexminAvatar & JSXBase.HTMLAttributes<HTMLLexminAvatarElement>;
             "lexmin-footer": LocalJSX.LexminFooter & JSXBase.HTMLAttributes<HTMLLexminFooterElement>;
             "lexmin-header": LocalJSX.LexminHeader & JSXBase.HTMLAttributes<HTMLLexminHeaderElement>;
         }

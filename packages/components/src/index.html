@@ -9,15 +9,32 @@
         padding: 0;
         margin: 0;
       }
+
+      .display-item {
+        padding: 10px;
+      }
+      .display-item-title {
+        margin-bottom: 10px;
+      }
     </style>
     <script type="module" src="/build/components.esm.js"></script>
     <script nomodule src="/build/components.js"></script>
   </head>
   <body>
-    <lexmin-header title="My Second Brain"></lexmin-header>
-    <lexmin-footer></lexmin-footer>
+    <div class="display-item">
+      <div class="display-item-title">头像</div>
+      <lexmin-avatar></lexmin-avatar>
+    </div>
+    <div class="display-item">
+      <div class="display-item-title">头部</div>
+      <lexmin-header title="My Second Brain"></lexmin-header>
+    </div>
+    <div class="display-item">
+      <div class="display-item-title">底部</div>
+      <lexmin-footer></lexmin-footer>
+    </div>
     <script>
-      document.querySelector('lexmin-header').icons = ['github', 'theme']
+      document.querySelector('lexmin-header').icons = ['github', 'theme'];
     </script>
   </body>
 </html>
