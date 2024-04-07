@@ -21,3 +21,21 @@
 - [x] Vue 包装器
 - [ ] 组件库文档
 - [ ] 主题
+
+## Development
+
+### 本地开发
+
+```shell
+pnpm dev
+```
+
+### 新增组件
+
+```shell
+pnpm new
+```
+
+### 版本发布
+
+新增/修改组件代码后提交到远程，Github Actions 会自动通过运行 lerna publish patch --yes 脚本发布新版本。
